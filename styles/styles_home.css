@@ -1,17 +1,13 @@
 #nav_pages ol {
-    text-align: center;
-    padding: 0;
+  text-align: center;
+  padding: 0;
 }
 #nav_pages ol li {
-    display: inline;
+  display: inline;
 }
 #nav_pages ol li a {
-    padding: 20px;
-    display: inline-block;
-    color: #4b8f8cbe;
-    text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  color: #4b8f8cbe;
+  text-decoration: none;
 }
-
-
-
-

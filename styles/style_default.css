@@ -12,15 +12,14 @@ body {
 }
 
 #cabecalho {
- width: 100%;
-background-color: #1f1f1f;
-border-radius: 0 0 25px 25px ;
-
+  width: 100%;
+  background-color: #1f1f1f;
+  border-radius: 0 0 25px 25px;
 }
 #cabecalho svg {
   padding-left: 2rem;
-  height:45px;
-  width:35px;
+  height: 45px;
+  width: 35px;
 }
 #cabecalho nav {
   display: flex;

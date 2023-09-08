@@ -35,15 +35,14 @@ h1 {
 #titulo_ingredientes h2,
 #titulo_ingredientes svg,
 #titulo_preparo h2,
-#titulo_preparo svg
- {
+#titulo_preparo svg {
   padding-left: 1rem;
 }
-#preparo{
-    padding-bottom: 1rem;
+#preparo {
+  padding-bottom: 1rem;
 }
 #content_ingredientes ul li,
-#content_preparo ol li{
-    font-size: 1.125rem;
-    padding: 0.75rem;
+#content_preparo ol li {
+  font-size: 1.125rem;
+  padding: 0.75rem;
 }
