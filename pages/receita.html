@@ -1,17 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style_default.css" />
+    <link rel="stylesheet" href="../styles/style_receita.css" />
     <title>Receita</title>
-</head>
-<body>
-    <h1>Receita</h1>
-    <main></main>
+  </head>
+  <body>
+    <header id="cabecalho">
+        <nav>
+          <a href="../index.html">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 576 512" fill="white">
+              <path d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"/>
+            </svg>
+          </a>
+          <span><strong>Web Standards</strong></span>
+        </nav>
+      </header>
+    <main id="conteudo">
+      <section id="receita">
+        <h1>Bolo de Banana</h1>
+        <div id="content_descricao">
+          <p id="descricao">
+            Receita de bolo de banana delicioso da Heloiza, sem lactose, para
+            você servir no lanche ou café da manhã e encantar a família! Confira
+            agora mesmo!
+          </p>
+          <span id="autor"><strong>Por Pedro Teodorio</strong></span>
+        </div>
+        <img id="img_bolo" src="https://anamariabraga.globo.com/wp-content/uploads/2019/10/bolo-de-banana-simples-1024x576.jpg" alt="Bolo de Banana">
+        <section id="ingredientes">
+            <div id="titulo_ingredientes">
+                <svg width="24" height="24" viewBox="0 0 32 32" role="img" aria-label="Icone representado a lista de ingredientes">
+                    <title id="svgIngredientes">Icone representado a lista de ingredientes</title>
+                    <path class="white" fill="currentColor" d="M31.98 5.232c-0.007-0.093-0.028-0.177-0.053-0.265-0.024-0.080-0.047-0.157-0.084-0.231-0.039-0.077-0.089-0.143-0.143-0.211-0.052-0.067-0.103-0.131-0.168-0.187-0.063-0.055-0.133-0.096-0.207-0.139-0.079-0.045-0.155-0.087-0.243-0.115-0.033-0.011-0.059-0.036-0.093-0.044-0.056-0.013-0.109-0.001-0.164-0.008-0.055-0.008-0.103-0.033-0.159-0.033h-24c-3.676 0-6.667 2.991-6.667 6.667v5.333c0 0.736 0.597 1.333 1.333 1.333s1.333-0.597 1.333-1.333v-5.333c0-2.205 1.795-4 4-4h0.081l1.099 17.584c0.131 2.103 1.885 3.749 3.992 3.749h11.413c1.839 0 3.435-1.247 3.881-3.029l4.827-19.313c0.013-0.056 0.001-0.109 0.008-0.164s0.032-0.104 0.032-0.16c0-0.036-0.017-0.065-0.020-0.101zM28.292 9.333h-2.959c-0.736 0-1.333 0.597-1.333 1.333s0.597 1.333 1.333 1.333h2.292l-0.667 2.667h-2.959c-0.736 0-1.333 0.597-1.333 1.333s0.597 1.333 1.333 1.333h2.292l-0.667 2.667h-2.959c-0.736 0-1.333 0.596-1.333 1.333s0.597 1.333 1.333 1.333h2.292l-0.415 1.656c-0.148 0.595-0.68 1.011-1.293 1.011h-11.413c-0.703 0-1.287-0.549-1.331-1.251l-1.088-17.416h19.54z"></path></svg>
+                <h2>Ingredientes</h2>
+            </div>
+            <div id="content_ingredientes">
+                <ul>
+                    <li>4 ovos</li>
+                    <li>2 xícaras (chá) de açúcar</li>
+                    <li>4 colheres (sopa) cheias de margarina</li>
+                    <li>2 xícaras de farinha de trigo</li>
+                    <li>1 colher (café) de bicarbonato de sódio</li>
+                    <li>1 colher (sobremesa) de fermento em pó</li>
+                    <li>4 bananas-prata maduras amassadas com o garfo</li>
+                    <li>Açúcar e canela para povilhar</li>
+                </ul>
+            </div>
+        </section>
+        <section id="preparo">
+            <div id="titulo_preparo">
+                <svg width="24" height="24" viewBox="0 0 32 32" role="img" aria-label="Icone representado o modo de preparo">
+                    <path class="white" fill="currentColor" d="M26.667 29.333h-21.333c-0.737 0-1.333 0.597-1.333 1.333s0.596 1.333 1.333 1.333h21.333c0.737 0 1.333-0.597 1.333-1.333s-0.596-1.333-1.333-1.333zM12 24v-6.667c0-0.736-0.596-1.333-1.333-1.333s-1.333 0.597-1.333 1.333v6.667c0 0.736 0.596 1.333 1.333 1.333s1.333-0.597 1.333-1.333zM22.667 24v-6.667c0-0.736-0.596-1.333-1.333-1.333s-1.333 0.597-1.333 1.333v6.667c0 0.736 0.596 1.333 1.333 1.333s1.333-0.597 1.333-1.333zM17.333 24v-6.667c0-0.736-0.596-1.333-1.333-1.333s-1.333 0.597-1.333 1.333v6.667c0 0.736 0.596 1.333 1.333 1.333s1.333-0.597 1.333-1.333zM24 2.667c-0.619 0-1.24 0.077-1.859 0.231-1.511-1.831-3.74-2.897-6.141-2.897s-4.631 1.067-6.141 2.897c-0.619-0.153-1.24-0.231-1.859-0.231-4.412 0-8 3.588-8 8 0 2.873 1.544 5.503 4 6.921v7.745c0 0.736 0.596 1.333 1.333 1.333s1.333-0.597 1.333-1.333v-8.563c0-0.529-0.313-1.009-0.799-1.221-1.945-0.852-3.201-2.768-3.201-4.883 0-3.564 3.604-6.36 7.228-4.967 0.591 0.227 1.265 0.005 1.605-0.533 0.988-1.565 2.671-2.5 4.5-2.5s3.512 0.935 4.5 2.5c0.34 0.539 1.015 0.76 1.605 0.533 3.625-1.393 7.228 1.403 7.228 4.967 0 2.115-1.256 4.031-3.201 4.883-0.485 0.212-0.799 0.692-0.799 1.221v8.563c0 0.736 0.596 1.333 1.333 1.333s1.333-0.597 1.333-1.333v-7.745c2.456-1.419 4-4.048 4-6.921 0-4.412-3.588-8-8-8z"></path></svg>
+                <h2>Modo de preparo</h2>
+            </div>
+            <div id="content_preparo">
+                <ol>
+                    <li>Misture os ovos com o açúcar e a margarina até ficar bem cremoso.</li>
+                    <li>Acrescente a farinha e incorpore bem.</li>
+                    <li>Adicione o bicarbonato, o fermento e a banana amassada e misture.</li>
+                    <li>Despeje em fôrma de sua preferência untada com margarina e polvilhada com açúcar e canela (se preferir, forre com fatias de banana).</li>
+                    <li>Leve ao forno médio preaquecido (200 ºC) por cerca de 40 minutos ou até dourar.</li>
+                    <li>Desenforme morno e deixe esfriar.</li>
+                </ol>
+            </div>
+        </section>
+    </section>
+    </main>
     <footer id="rodape">
-        <a href="../index.html"><strong>Clique para retornar para página Inicial</strong></a>
-        <p><strong>ADO 2 Web Standards</strong></p>
-      </footer>
-</body>
+      <p><strong>ADO 2 Web Standards</strong></p>
+    </footer>
+  </body>
 </html>
